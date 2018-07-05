@@ -22,7 +22,7 @@
 
   <groupId>org.eclipse.m2e</groupId>
   <artifactId>m2e-core</artifactId>
-  <version>1.4.1-SNAPSHOT</version>
+  <version>1.4.2</version>
   <packaging>pom</packaging>
 
   <name>Maven Integration for Eclipse (parent)</name>
@@ -139,6 +139,12 @@
       <groupId>org.eclipse.m2e</groupId>
       <artifactId>org.jboss.netty</artifactId>
       <version>${m2e-maven-runtime.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
