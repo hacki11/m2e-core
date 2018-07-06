@@ -1,6 +1,7 @@
 This is the m2eclipse-core repository
 
-- replaced slf4j.api hard version constraint "1.6.2" with "[1.6.0,2.0.0)"
+- removed slf4j.api hard version constraint "1.6.2"
+- replaced org.slf4j.api with official slf4j.api Bundle-SymbolicName
 
 This will allow using m2e plugin within a juno/kepler rcp application and using a more up to date slf4j package.
 
