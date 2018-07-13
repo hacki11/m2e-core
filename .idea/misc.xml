@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/m2e-maven-runtime/com.ning.async-http-client" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/m2e-maven-runtime/org.eclipse.m2e.archetype.common" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/m2e-maven-runtime/org.eclipse.m2e.maven.indexer" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/m2e-maven-runtime/org.eclipse.m2e.maven.runtime" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/m2e-maven-runtime/org.jboss.netty" />
+  </component>
+  <component name="IdProvider" IDEtalkID="F2C2441EC037AFEC740EE7024E7191F2" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

@@ -13,7 +13,7 @@
   <parent>
     <groupId>org.eclipse.m2e</groupId>
     <artifactId>m2e-maven-runtime</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.3</version>
   </parent>
 
   <artifactId>org.eclipse.m2e.maven.runtime</artifactId>
@@ -199,7 +199,7 @@
               org.codehaus.plexus.*,
               org.sonatype.plexus.*,
               org.sonatype.aether.*,
-              com.google.inject.*,
+              com.google.inject.*;version="3.0.0.v201203062045",
               javax.inject.*,
               org.sonatype.maven.wagon.*,
             </_exportcontents>

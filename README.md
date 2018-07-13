@@ -5,11 +5,13 @@ This is the m2eclipse-core repository
 
 This will allow using m2e plugin within a juno/kepler rcp application and using a more up to date slf4j package.
 
+- changed com.google.inject version to 3.0.0
+
 Build:
  ```
  mvn -f m2e-maven-runtime clean install
  mvn clean install
- mvn update-site-p2-metadata
+ mvn tycho-p2:update-site-p2-metadata
  ```
  
  Use org.eclipse.m2e.site/target/org.eclipse.m2e.site.1.4.2.zip as repository for your rcp app.

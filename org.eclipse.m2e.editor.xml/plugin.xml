@@ -364,7 +364,7 @@
         &lt;dependency&gt;
           &lt;groupId&gt;com.sun&lt;/groupId&gt;
           &lt;artifactId&gt;tools&lt;/artifactId&gt;
-          &lt;version&gt;1.4.2&lt;/version&gt;
+          &lt;version&gt;1.4.3&lt;/version&gt;
           &lt;scope&gt;system&lt;/scope&gt;
           &lt;systemPath&gt;$${java.home}/../lib/tools.jar&lt;/systemPath&gt;
        &lt;/dependency&gt;

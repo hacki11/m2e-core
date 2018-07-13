@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="org.eclipse.m2e.maven.indexer-1.4.2.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.eclipse.m2e.maven.indexer;singleton:=false" bundleVersion="1.4.2" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Vendor" value="%Bundle-Vendor" />
+          <property key="Bundle-DocURL" value="www.eclipse.org" />
+          <property key="Embed-Dependency" value="*;scope=compile|runtime" />
+          <property key="-exportcontents" value="META-INF.plexus;-noimport:=true,org.apache.lucene.*,org.apache.maven.*," />
+          <property key="Import-Package" value="!*" />
+          <property key="Require-Bundle" value="org.eclipse.m2e.maven.runtime;bundle-version=&quot;[1.4.0,1.5.0)&quot;,org.eclipse.m2e.archetype.common;bundle-version=&quot;[1.4.0,1.5.0)&quot;" />
+          <property key="Bundle-ClassPath" value=".,indexer-artifact-3.1.0.jar,indexer-core-3.1.0.jar,lucene-highlighter-2.4.1.jar,lucene-core-2.4.1.jar" />
+          <property key="Embed-Transitive" value="true" />
+          <property key="-failok" value="true" />
+          <property key="-nouses" value="true" />
+          <property key="-nodefaultversion" value="true" />
+          <property key="-snapshot" value="20180713-0839" />
+          <property key="Bundle-RequiredExecutionEnvironment" value="JavaSE-1.6,JavaSE-1.7" />
+          <property key="Bundle-Name" value="%Bundle-Name" />
+          <property key="Include-Resource" value="indexer-artifact-3.1.0.jar=$MAVEN_REPOSITORY$/org/apache/maven/indexer/indexer-artifact/3.1.0/indexer-artifact-3.1.0.jar,indexer-core-3.1.0.jar=$MAVEN_REPOSITORY$/org/apache/maven/indexer/indexer-core/3.1.0/indexer-core-3.1.0.jar,lucene-highlighter-2.4.1.jar=$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/2.4.1/lucene-highlighter-2.4.1.jar,lucene-core-2.4.1.jar=$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/2.4.1/lucene-core-2.4.1.jar" />
+          <property key="Embedded-Artifacts" value="indexer-artifact-3.1.0.jar;g=&quot;org.apache.maven.indexer&quot;;a=&quot;indexer-artifact&quot;;v=&quot;3.1.0&quot;,indexer-core-3.1.0.jar;g=&quot;org.apache.maven.indexer&quot;;a=&quot;indexer-core&quot;;v=&quot;3.1.0&quot;,lucene-highlighter-2.4.1.jar;g=&quot;org.apache.lucene&quot;;a=&quot;lucene-highlighter&quot;;v=&quot;2.4.1&quot;,lucene-core-2.4.1.jar;g=&quot;org.apache.lucene&quot;;a=&quot;lucene-core&quot;;v=&quot;2.4.1&quot;" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.maven.indexer:indexer-core:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.indexer:indexer-artifact:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:2.4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.sonatype.sisu:sisu-inject-plexus:1.4.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-classworlds:2.2.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-utils:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.sonatype.sisu:sisu-inject-bean:1.4.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.sonatype.sisu:sisu-guice:noaop:2.9.1" level="project" />
+  </component>
+</module>
